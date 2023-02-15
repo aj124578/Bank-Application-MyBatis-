@@ -19,8 +19,8 @@ CREATE TABLE history_tb(
     id int auto_increment primary key,
     amount bigint not null,          -- 거래금액
     w_balance bigint,
-    d_balance bigint.
-    w_acoount int,                   -- 출금된 계좌
-    d_account int,                   -- 입금된 계좌
+    d_balance bigint,
+    w_acoount_id int,                   -- 출금된 계좌
+    d_account_id int,                   -- 입금된 계좌
     created_at timestamp not null
 );
